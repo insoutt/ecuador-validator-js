@@ -41,8 +41,8 @@ And you can use it like this:
 ```js
 validator.cedula('1723456789'); // true
 validator.ruc('1723456789001'); // true
-validator.celular('0991234567'); // true
-validator.telefono('022123456'); // true
+validator.cellphone('0991234567'); // true
+validator.telephone('022123456'); // true
 validator.placaCar('ABC-123'); // false
 validator.placaCar('ABC0123'); // true
 validator.placaMoto('AA012E'); // true
