@@ -1,0 +1,22 @@
+{
+  "name": "ecuador-validator",
+  "version": "1.1.1",
+  "description": "Validador de datos más usados en Ecuador",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "ecuador",
+    "validator",
+    "cédula",
+    "ruc",
+    "celular",
+    "validador"
+  ],
+  "author": "insoutt",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^10.1.0"
+  }
+}
