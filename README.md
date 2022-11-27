@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 <div align="center">
-  <img src="assets/logo.jpg" alt="logo" width="300" height="auto" />
+  <img src="assets/logo.jpg" alt="logo" height="auto" />
   <h1>Ecuador Validator Javascript</h1>
 
   <p>
