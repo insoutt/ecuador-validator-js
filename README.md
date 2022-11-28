@@ -46,7 +46,7 @@ validator.cellphone('0991234567', 'code'); // false
 validator.cellphone('+593991234567', 'code'); // true
 validator.cellphone('593991234567', 'code'); // true
 validator.telephone('2123456'); // true, type is simple by default
-validator.telephone('02123456', 'code'); // true
+validator.telephone('022123456', 'code'); // true
 validator.telephone('+59322123456', 'international'); // true
 validator.telephone('59322123456', 'international'); // true
 validator.placaCar('ABC-123'); // false
