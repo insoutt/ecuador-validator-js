@@ -41,8 +41,14 @@ And you can use it like this:
 ```js
 validator.cedula('1723456789'); // true
 validator.ruc('1723456789001'); // true
-validator.cellphone('0991234567'); // true
-validator.telephone('022123456'); // true
+validator.cellphone('0991234567'); // true, type is simple by default
+validator.cellphone('0991234567', 'code'); // false
+validator.cellphone('+593991234567', 'code'); // true
+validator.cellphone('593991234567', 'code'); // true
+validator.telephone('2123456'); // true, type is simple by default
+validator.telephone('02123456', 'code'); // true
+validator.telephone('+59322123456', 'international'); // true
+validator.telephone('59322123456', 'international'); // true
 validator.placaCar('ABC-123'); // false
 validator.placaCar('ABC0123'); // true
 validator.placaMoto('AA012E'); // true
@@ -52,7 +58,7 @@ validator.placaMoto('AA012E'); // true
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone git@github.com:insoutt/ecuador-validator-js.git
    ```
 2. Install NPM packages
    ```sh

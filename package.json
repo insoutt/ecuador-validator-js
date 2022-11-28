@@ -1,6 +1,6 @@
 {
   "name": "ecuador-validator",
-  "version": "1.1.1",
+  "version": "1.2.1",
   "description": "Validador de datos más usados en Ecuador",
   "main": "src/index.js",
   "scripts": {
@@ -12,7 +12,9 @@
     "cédula",
     "ruc",
     "celular",
-    "validador"
+    "validador",
+    "teléfono",
+    "typescript"
   ],
   "author": "insoutt",
   "license": "MIT",
